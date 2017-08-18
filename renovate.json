@@ -4,19 +4,19 @@
   "labels": ["upgrade"],
   "packageRules": [
     {
-      "packagePatterns": "^(@angular|typescript)",
+      "packagePatterns": ["^(@angular|typescript)"],
       "groupName": ["angular packages"]
     },
     {
-      "packagePatterns": "^@ngrx",
+      "packagePatterns": ["^@ngrx"],
       "groupName": ["ngrx packages"]
     },
     {
-      "packagePatterns": "^jasmine",
+      "packagePatterns": ["^jasmine"],
       "groupName": ["jasmine packages"]
     },
     {
-      "packagePatterns": "^karma",
+      "packagePatterns": ["^karma"],
       "groupName": ["karma packages"]
     }
   ]
