@@ -1,0 +1,23 @@
+{
+  "extends": [":app"],
+  "assignees": ["zuzust"],
+  "labels": ["upgrade"],
+  "packageRules": [
+    {
+      "packagePatterns": "^(@angular|typescript)",
+      "groupName": ["angular packages"]
+    },
+    {
+      "packagePatterns": "^@ngrx",
+      "groupName": ["ngrx packages"]
+    },
+    {
+      "packagePatterns": "^jasmine",
+      "groupName": ["jasmine packages"]
+    },
+    {
+      "packagePatterns": "^karma",
+      "groupName": ["karma packages"]
+    }
+  ]
+}
